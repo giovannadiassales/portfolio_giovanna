@@ -1,0 +1,276 @@
+.about-page .detailed .about-text {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.teaching-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.method {
+    text-align: center;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.method i {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+/* Página Projetos */
+.projects-page .subtitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.projects-grid.expanded {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.project-card .category {
+    display: inline-block;
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-links .btn {
+    flex: 1;
+    text-align: center;
+}
+
+.project-links .github {
+    background: #333;
+}
+
+/* Página Contato */
+.contact-page .alert {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-page .alert.success {
+    background: #d4edda;
+    color: #155724;
+}
+
+.contact-page .alert.error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.contact-container.expanded {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Página Blog */
+.blog-page .subtitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.blog-posts.expanded {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+/* Página Currículo */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.skill-level {
+    display: block;
+    height: 5px;
+    background: #eee;
+    border-radius: 5px;
+    margin-top: 0.3rem;
+}
+
+.skill-level span {
+    display: block;
+    height: 100%;
+    background: var(--secondary-color);
+    border-radius: 5px;
+}
+
+.responsibilities {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.responsibilities li {
+    margin-bottom: 0.3rem;
+}
+
+.institution {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.period {
+    font-style: italic;
+    color: #666;
+}
+
+.details {
+    margin-top: 0.3rem;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+.hero-gradient{
+    background: linear-gradient(135deg,#FCE4EC 0%,#E91E63 100%);
+}     
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ---------- MODO ESCURO ---------- */
+/* =======================
+      MODO ESCURO
+======================= */
+
+/* ==========================
+        MODO ESCURO
+========================== */
+
+.dark{
+
+    background:#000;
+    color:#FFF0F5;
+
+}
+
+/* Fundo das seções */
+
+.dark header,
+.dark section,
+.dark footer{
+
+    background:#000 !important;
+
+}
+
+/* Todos os cards */
+
+.dark .bg-white,
+.dark .bg-gray-50{
+
+    background:#1A1A1A !important;
+
+    border:1px solid #8B1E4F;
+
+    box-shadow:0 0 20px rgba(139,30,79,.35);
+
+}
+
+/* Hero */
+
+.dark .hero-gradient{
+
+    background:linear-gradient(135deg,#25000F,#5C1434);
+
+    border-bottom:2px solid #C2185B;
+
+}
+
+/* Textos */
+
+.dark .text-gray-800{
+
+    color:#FFDDEB !important;
+
+}
+
+.dark .text-gray-700,
+.dark .text-gray-600,
+.dark .text-gray-500{
+
+    color:#FFF0F5 !important;
+
+}
+
+/* Botões */
+
+.dark .bg-primary{
+
+    background:#8B1E4F !important;
+
+}
+
+.dark .bg-primary:hover{
+
+    background:#C2185B !important;
+
+}
+
+/* Inputs */
+
+.dark input,
+.dark textarea{
+
+    background:#111;
+
+    color:#FFF0F5;
+
+    border:1px solid #8B1E4F;
+
+}
+
+/* Links */
+
+.dark a{
+
+    color:#FFDDEB;
+
+}
+
+.dark a:hover{
+
+    color:#F8BBD0;
+
+}
+.dark .text-secondary{
+    color:#F8BBD0 !important;
+}
+
+.dark .text-primary{
+    color:#FFB6D5 !important;
+}

@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Giovanna Dias Sales do Nascimento</title>
+    <meta name="description" content="Portfólio profissional de estudante na área de tecnologia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+       <script src="https://cdn.tailwindcss.com"></script>
+      
+    </script>
+      
+    </script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class', 
+            
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#8B1E4F",
+                        secondary: "#A83263",
+                        accent: "#F8BBD0"
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-primary">
+                    <a href="#">Giovanna <span class="text-secondary">Dias</span></a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-primary font-medium">Início</a>
+                    <a href="#about" class="text-gray-700 hover:text-primary font-medium">Sobre Mim</a>
+                    <a href="#resume" class="text-gray-700 hover:text-primary font-medium">Currículo</a>
+                    <a href="#projects" class="text-gray-700 hover:text-primary font-medium">Projetos</a>
+                   <a href="#certificates" class="text-gray-700 hover:text-primary font-medium">Certificados</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary font-medium">Contato</a>
+            
+              <button id="theme-toggle-desktop" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary transition">
+     🌙
+</button>
+                </div>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-4">
+                <div class="flex flex-col space-y-3">
+                    <a href="#home" class="text-gray-700 hover:text-primary font-medium">Início</a>
+                    <a href="#about" class="text-gray-700 hover:text-primary font-medium">Sobre Mim</a>
+                    <a href="#resume" class="text-gray-700 hover:text-primary font-medium">Currículo</a>
+                    <a href="#projects" class="text-gray-700 hover:text-primary font-medium">Projetos</a>
+                    <a href="#certificates" class="text-gray-700 hover:text-primary font-medium">Certificados</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary font-medium">Contato</a>
+                     <button id="theme-toggle-mobile"
+class="bg-primary text-white px-4 py-2 rounded-lg">
+🌙
+</button>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Futura Engenheira de Software & Desenvolvedora Full-Stack</h1>
+                    <p class="text-xl mb-8">Estudante de Análise e Desenvolvimento de Sistemas apaixonada por Banco de Dados, Desenvolvimento Web e Engenharia de Dados.</p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="bg-white text-primary px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition duration-300">Entre em Contato</a>
+                        <a href="#projects" class="border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-primary transition duration-300">Ver Projetos</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="https://uploads.onecompiler.io/43nt723kz/44h7hfjtj/foto%20webp.webp" alt="Giovanna Dias" class="rounded-full border-4 border-white shadow-xl w-64 h-64 md:w-80 md:h-80 object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Sobre Mim</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/WhatsApp%20Image%202026-07-06%20at%2018.23.01.jpeg" alt="giovanna" class="rounded-lg shadow-md w-full max-w-md">
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Olá, eu sou Giovanna!</h3>
+                    <p class="text-gray-600 mb-4">Sou Giovanna Dias Sales do Nascimento, estudante de Análise e Desenvolvimento de Sistemas. Meu objetivo é me tornar Engenheira de Software e Desenvolvedora Full-Stack, com foco em Banco de Dados e futura especialização em Engenharia de Dados.</p>
+                    <p class="text-gray-600 mb-6">Atualmente desenvolvo projetos utilizando HTML, CSS, JavaScript, Python, MySQL e Lógica de Programação. Gosto de criar soluções tecnológicas que geram impacto social e desenvolver projetos em equipe.</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <div class="text-primary text-2xl mb-3">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-gray-800">Formação Acadêmica</h4>
+                            <p class="text-gray-600">Análise e Desenvolvimento de Sistemas</p>
+<p>Senac Pernambuco — Em andamento</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-lg">
+                            <div class="text-primary text-2xl mb-3">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h4 class="font-semibold mb-2 text-gray-800">Áreas de Atuação</h4>
+                            <p class="text-gray-600">Desenvolvimento Web,
+Banco de Dados,
+Engenharia de Software e
+Engenharia de Dados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="resume" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Currículo</h2>
+            
+            <div class="flex flex-col md:flex-row">
+                
+                <div class="md:w-1/2 md:pr-6 mb-10 md:mb-0">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
+                        <span class="bg-primary text-white p-2 rounded-full mr-3">
+                            <i class="fas fa-graduation-cap"></i>
+                        </span>
+                        Formação Acadêmica
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-primary">
+                            <h4 class="font-bold text-lg text-gray-800">Análise e desenvolvimento de sistemas</h4>
+                            <p class="text-gray-600">Análise e Desenvolvimento de Sistemas (em andamento)</p>
+                            <p class="text-gray-500 text-sm">Senac Pernambuco</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 md:pl-6">
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
+                        <span class="bg-primary text-white p-2 rounded-full mr-3">
+                            <i class="fas fa-briefcase"></i>
+                        </span>
+                        Experiência Acadêmica
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-primary">
+                            <h4 class="font-bold text-lg text-gray-800">Participante da 4ª edição do Desafio Liga Jovem (Ideathon)</h4>
+                            <p class="text-gray-600">Participação em desafio de inovação e empreendedorismo com foco em soluções tecnológicas.</p>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-primary">
+                            <h4 class="font-bold text-lg text-gray-800">Gerente do Projeto Integrador — SheUp</h4>
+                            <p class="text-gray-600">Responsável pela organização da equipe e gerenciamento do projeto apresentado em 2025.</p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-primary">
+                            <h4 class="font-bold text-lg text-gray-800">Desenvolvimento do Projeto Integrador — EntreElas</h4>
+                            <p class="text-gray-600">Projeto em desenvolvimento em parceria com a equipe no ano de 2026.</p>
+                        </div>
+                    </div>
+                </div> </div> <div class="mt-16">
+                <h3 class="text-2xl font-semibold mb-6 text-gray-800 text-center">Habilidades Técnicas</h3>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center card-hover">
+                        <div class="text-primary text-4xl mb-3">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Linguagens de Programação</h4>
+                        <p class="text-gray-600">Python e JavaScript</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center card-hover">
+                        <div class="text-primary text-4xl mb-3">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Banco de Dados</h4>
+                        <p class="text-gray-600">MySQL</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center card-hover">
+                        <div class="text-primary text-4xl mb-4">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Desenvolvimento Web</h4>
+                        <p class="text-gray-600">HTML, CSS, JavaScript e criação de interfaces responsivas.</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center card-hover">
+                        <div class="text-primary text-4xl mb-4">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Lógica de Programação</h4>
+                        <p class="text-gray-600">Resolução de problemas, algoritmos e pensamento computacional.</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center card-hover">
+                        <div class="text-primary text-4xl mb-4">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Gestão de Projetos</h4>
+                        <p class="text-gray-600">Organização de equipes, planejamento e acompanhamento de projetos.</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center card-hover">
+                        <div class="text-primary text-4xl mb-4">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4 class="font-bold text-gray-800 mb-2">Criação de Projetos</h4>
+                        <p class="text-gray-600">Desenvolvimento de soluções tecnológicas com foco em inovação e impacto social.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div> </section>
+    <!-- Projects Section -->
+<section id="projects" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Meus Projetos</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- SheUp -->
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300 card-hover">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20093144.png" alt="Projeto SheUp" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">SheUp</h3>
+                    <p class="text-gray-600 mb-4">
+                        Projeto Integrador apresentado em 2025. O principal objetivo do SheUp é ajudar sobreviventes de violência doméstica a se reerguerem.
+.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-pink-100 text-pink-800 text-xs px-3 py-1 rounded-full">Gestão</span>
+                        <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Tecnologia</span>
+                    </div>
+
+                    <a href="https://canva.link/qbdq80u0s0qy51q" target="_blank" class="text-primary font-medium hover:underline">
+                        Ver Projeto →
+                    </a>
+                </div>
+            </div>
+
+            <!-- EntreElas -->
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300 card-hover">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20093323.png" alt="Projeto EntreElas" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">EntreElas</h3>
+                    <p class="text-gray-600 mb-4">
+                        Projeto Integrador em desenvolvimento, voltado para turismo e promoção de segurança para mulheres.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Projeto Integrador</span>
+                        <span class="bg-pink-100 text-pink-800 text-xs px-3 py-1 rounded-full">Equipe</span>
+                    </div>
+
+                    <a href="https://canva.link/7g4r6xq6e5wd6o5" target="_blank" class="text-primary font-medium hover:underline">
+                        Ver Projeto →
+                    </a>
+                </div>
+            </div>
+
+            <!-- EcoCash -->
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300 card-hover">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20093117.png" alt="Projeto EcoCash" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">EcoCash</h3>
+                    <p class="text-gray-600 mb-4">
+                        Projeto voltado ao incentivo da sustentabilidade por meio da tecnologia e conscientização ambiental, por meio da reciclagem.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Sustentabilidade</span>
+                        <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Tecnologia</span>
+                    </div>
+
+                    <a href="https://canva.link/zhwny8igzdorz3s" target="_blank" class="text-primary font-medium hover:underline">
+                        Ver Projeto →
+                    </a>
+                </div>
+            </div>
+
+            <!-- EduLibras -->
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300 card-hover">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20093304.png" alt="Projeto EduLibras" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">EduLibras</h3>
+                    <p class="text-gray-600 mb-4">
+                        Projeto educacional desenvolvido para promover acessibilidade e inclusão de pessoas com deficiência auditiva nas escolas por meio da tecnologia.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">Educação</span>
+                        <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Inclusão</span>
+                    </div>
+
+                    <a href="https://canva.link/ct4inyeaa96rvt6" target="_blank" class="text-primary font-medium hover:underline">
+                        Ver Projeto →
+                    </a>
+                </div>
+            </div>
+
+            <!-- Creating Story -->
+            <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md transition duration-300 card-hover">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20093212.png" alt="Projeto Creating Story" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">Creating Story</h3>
+                    <p class="text-gray-600 mb-4">
+                        Projeto criativo voltado ao desenvolvimento de histórias utilizando tecnologia e design.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">Criatividade</span>
+                        <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Design</span>
+                    </div>
+
+                    <a href="https://canva.link/4efzvsqnl0q95op" target="_blank" class="text-primary font-medium hover:underline">
+                        Ver Projeto →
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+   
+<section id="certificates" class="py-16 bg-gray-50">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">
+            Certificados
+        </h2>
+
+        <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+            Ao longo da minha trajetória na área de tecnologia, concluí cursos voltados para
+            programação, segurança da informação, análise de dados, inteligência artificial
+            e desenvolvimento web.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142743.png" alt="Introdução à Cibersegurança" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Introdução à Cibersegurança
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Cisco Networking Academy
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142801.png" alt="Exame Técnico em Redes" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Exame da Trilha de Técnico em Redes
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Cisco Networking Academy
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142822.png" alt="Gerenciamento de Ameaças" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Gerenciamento de Ameaças Cibernéticas
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Cisco Networking Academy
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142841.png" alt="Fundamentos do Python" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Fundamentos do Python 1
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Cisco Networking Academy
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142905.png" alt="Defesa de Rede" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Defesa de Rede
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Cisco Networking Academy
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142448.png" alt="LGPD" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Lei Geral de Proteção de Dados (LGPD)
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Escola Virtual Fundação Bradesco
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142506.png" alt="Power BI" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Introdução à Análise de Dados - Power BI
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Escola Virtual Fundação Bradesco
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142534.png" alt="Comunicação Empresarial" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Comunicação Empresarial
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Escola Virtual Fundação Bradesco
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142551.png" alt="POO" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Introdução à Programação Orientada a Objetos
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Escola Virtual Fundação Bradesco
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142702.png" alt="Ética na Era da IA" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Ética na Era da IA
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Microsoft + Escola Virtual
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142723.png" alt="Controle de Impulso" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Controle de Impulso e Manejo de Raiva, Vergonha e Inveja
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Plataforma Semente
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142926.png" alt="Inclusividade" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Inclusividade
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Talento Incluir
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20142955.png" alt="Comunicação e Mobilização com IA" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Comunicação e Mobilização com IA
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Microsoft + Escola Virtual
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+                <img src="https://uploads.onecompiler.io/43nt723kz/44ue52pcd/Captura%20de%20tela%202026-07-06%20143018.png" alt="HTML CSS JavaScript" class="w-full h-56 object-cover">
+                <div class="p-5">
+                    <h3 class="font-bold text-primary text-lg">
+                        Crie um Site Simples usando HTML, CSS e JavaScript
+                    </h3>
+                    <p class="text-gray-600 mt-2">
+                        Escola Virtual Fundação Bradesco
+                    </p>
+                </div>
+            </div>
+
+        </div> </div>
+
+</section>
+
+    <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4 text-gray-800">Contato</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+               Estou disponível para oportunidades de estágio e aberta a conexões profissionais, colaborações em projetos de tecnologia ou troca de conhecimentos.
+            </p>
+            
+            <div class="bg-gray-50 p-8 rounded-xl shadow-sm border border-gray-100">
+                <form action="https://formsubmit.co/giovannadiassales@gmail.com" method="POST" class="space-y-6">
+                    
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Nova mensagem do Portfólio">
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Nome</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-white" required>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-white" required>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="subject" class="block text-gray-700 font-medium mb-2">Assunto</label>
+                        <input type="text" id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-white" required>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Mensagem</label>
+                        <textarea id="message" name="message" rows="6" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent bg-white" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-primary text-white py-4 px-6 rounded-lg font-medium hover:bg-secondary transition duration-300 shadow-md">
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+
+            <div class="mt-12 pt-8 border-t border-gray-100 flex flex-col items-center space-y-6 text-center">
+                <div class="flex flex-col md:flex-row md:space-x-8 space-y-3 md:space-y-0 text-gray-600">
+                    <span class="flex items-center justify-center"><i class="fas fa-envelope text-primary mr-2"></i> giovannadiassales@gmail.com</span>
+                    <span class="flex items-center justify-center"><i class="fas fa-phone-alt text-primary mr-2"></i> +55 (81) 98439-7113</span>
+                    <span class="flex items-center justify-center"><i class="fas fa-map-marker-alt text-primary mr-2"></i> Paulista, PE, Brasil</span>
+                </div>
+
+                <div class="flex space-x-4">
+                    <a href="https://www.linkedin.com/in/giovanna-dias-sales-do-nascimento-b59744355/" target="_blank" class="bg-gray-100 text-gray-700 hover:bg-primary hover:text-white w-12 h-12 rounded-full flex items-center justify-center transition duration-300 text-lg">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/giovannadiassales" target="_blank" class="bg-gray-100 text-gray-700 hover:bg-primary hover:text-white w-12 h-12 rounded-full flex items-center justify-center transition duration-300 text-lg">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=giovannadiassales@gmail.com" target="_blank" class="bg-gray-100 text-gray-700 hover:bg-primary hover:text-white w-12 h-12 rounded-full flex items-center justify-center transition duration-300 text-lg">
+    <i class="fas fa-envelope"></i>
+</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">Giovanna<span class="text-primary">Dias</span></h3>
+                    <p class="text-gray-400 max-w-md">Estudante de análise e desenvolvimento de sistemas</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="font-bold text-lg mb-4">Links Rápidos</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">Início</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">Sobre Mim</a></li>
+                            <li><a href="#resume" class="text-gray-400 hover:text-white transition duration-300">Currículo</a></li>
+                            <li><a href="#projects" class="text-gray-400 hover:text-white transition duration-300">Projetos</a></li>
+                        </ul>
+                    </div>
+                    
+                 
+                    
+                    <div>
+                        <h4 class="font-bold text-lg mb-4">Contato</h4>
+                        <ul class="space-y-2">
+                            <li class="text-gray-400">giovannadiassales@gmail.com</li>
+                            <li class="text-gray-400">+55 (81) 98439-7113</li>
+                            <li class="text-gray-400">Paulista, Pernambuco, Brasil</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2026 Giovanna Dias. Todos os direitos reservados.</p>
+                
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-github"></i>
+                    </a>
+                   
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-primary text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- PHP Contact Form Processing -->
+
+
+ <script src="script.js"></script>
+</body>
+</html>
