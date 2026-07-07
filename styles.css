@@ -274,3 +274,11 @@
 .dark .text-primary{
     color:#FFB6D5 !important;
 }
+
+.dark a svg,
+.dark a i,
+.dark .rounded-full svg,
+.dark .rounded-full i {
+    color: #111111 !important;
+    fill: #111111 !important;
+}
