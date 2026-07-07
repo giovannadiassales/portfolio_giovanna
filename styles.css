@@ -282,3 +282,14 @@
     color: #111111 !important;
     fill: #111111 !important;
 }
+
+.dark .rounded-full i,
+.dark .rounded-full svg {
+    color: #000000 !important;
+    fill: #000000 !important;
+}
+
+
+.dark .rounded-full img {
+    filter: invert(1) !important;
+}
